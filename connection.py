@@ -1,7 +1,7 @@
 from datetime import date
 import mysql.connector
 
-db_connection = mysql.connector.connect(host="localhost", user="root", passwd="ali0077", database="bd")
+db_connection = mysql.connector.connect(host="localhost", user="root", passwd="*****", database="bd")
 cursor = db_connection.cursor()
 
 sql = "INSERT INTO user (name, cpf) VALUES (%s, %s)"
